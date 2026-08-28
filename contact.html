@@ -15,26 +15,26 @@
 </section>
 
 <form>
-  <fieldset>
-    <legend>Your details</legend>
+    <fieldset>
+        <legend>Your details</legend>
 
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
 
-    <label for="subject">Subject</label>
-    <select id="subject" name="subject">
-      <option value="product-question">Product question</option>
-      <option value="order-status">Order status</option>
-      <option value="custom-order">Custom order</option>
-      <option value="wholesale-enquiry">Wholesale enquiry</option>
-    </select>
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject">
+            <option value="suggest-place">Suggest a place</option>
+            <option value="correct-detail">Correct a detail</option>
+            <option value="ask-question">Ask a question</option>
+            <option value="something-else">Something else</option>
+        </select>
 
-    <label for="message">Your Message</label>
-    <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
 
-    <button type="submit">Send message</button>
-  </fieldset>
+        <button type="submit">Send message</button>
+    </fieldset>
 </form>
