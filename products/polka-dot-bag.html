@@ -28,6 +28,51 @@
   </tr>
 </table>
 
+<h2>Order Enquiry</h2>
+
+<form>
+
+  <label for="quantity">Quantity</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="20" required>
+
+
+    <fieldset>
+      <legend>Delivery Method</legend>
+
+      <input type="radio" id="pickup" name="delivery" value="pickup">
+      <label for="pickup">Pick-up</label>
+
+      <input type="radio" id="standard-delivery" name="delivery" value="standard-delivery">
+      <label for="standard-delivery">Standard Delivery</label>
+
+      <input type="radio" id="express-delivery" name="delivery" value="express-delivery">
+      <label for="express-delivery">Express Delivery</label>
+
+    </fieldset>
+
+
+    <fieldset>
+      <legend>Optional Extras</legend>
+
+      <input type="checkbox" id="gift-packaging" name="extras" value="gift-packaging">
+      <label for="gift-packaging">Gift packaging</label>
+
+      <input type="checkbox" id="personalized-tag" name="extras" value="personalized-tag">
+      <label for="personalized-tag">Personalized name tag</label>
+
+      <input type="checkbox" id="extra-pouch" name="extras" value="extra-pouch">
+      <label for="extra-pouch">Additional storage pouch</label>
+
+    </fieldset>
+
+
+  <label for="email">Contact Email</label>
+  <input type="email" id="email" name="email" required>
+
+    <button type="submit">Send enquiry</button>
+
+</form>
+
 <nav>
   <ul>
     <li><a href="../index.html">Home</a></li>

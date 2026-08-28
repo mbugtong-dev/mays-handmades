@@ -71,6 +71,54 @@
   </tr>
 </table>
 
+<h2>Order Enquiry</h2>
+
+<form>
+
+    <label for="quantity">Number of Flowers</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="20" required>
+
+
+    <fieldset>
+      <legend>Flower Type</legend>
+
+      <input type="radio" id="lily" name="flower-type" value="lily">
+      <label for="lily">Lily</label>
+
+      <input type="radio" id="lily-valley" name="flower-type" value="lily-of-the-valley">
+      <label for="lily-valley">Lily of the Valley</label>
+
+      <input type="radio" id="rose" name="flower-type" value="rose">
+      <label for="rose">Rose</label>
+
+      <input type="radio" id="four-leaf" name="flower-type" value="four-leaf-flower">
+      <label for="four-leaf">Four-Leaf Flower</label>
+
+    </fieldset>
+
+
+    <fieldset>
+      <legend>Optional Extras</legend>
+
+      <input type="checkbox" id="mixed-colors" name="extras" value="mixed-colors">
+      <label for="mixed-colors">Mixed flower colors</label>
+
+      <input type="checkbox" id="custom-arrangement" name="extras" value="custom-arrangement">
+      <label for="custom-arrangement">Custom flower arrangement</label>
+
+      <input type="checkbox" id="gift-packaging" name="extras" value="gift-packaging">
+      <label for="gift-packaging">Gift packaging</label>
+
+    </fieldset>
+
+
+    <label for="email">Contact Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Send enquiry</button>
+
+</form>
+
 <nav>
   <ul>
     <li><a href="../index.html">Home</a></li>
