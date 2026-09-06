@@ -1,0 +1,132 @@
+:root {
+  --brand-color: #c25e8d;      
+  --ink-color: #412e2e;        
+  --muted-grey: #5a5353;      
+  --light-bg: #f0bbd5;         
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:  'Courier New', monospace;
+  line-height: 1.6;
+  color: var(--ink-color);
+  background-color: var(--light-bg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+a {
+  color: var(--brand-color);
+}
+
+header {
+  background-image: url('star.jpg');
+  background-repeat: repeat-x;
+  background-size: auto;
+  color: #392121;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px 20px 30px;
+}
+
+header p {
+  margin: 10px;
+  color: #392121;
+}
+
+nav {
+  background-color: var(--ink-color);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  padding: 1rem 1.25rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: var(--brand-color);
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+main h2 {
+  flex-basis: 100%;        
+  color: var(--ink-color);
+  border-bottom: 2px solid var(--brand-color);
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  background-color: var(--ink-color);
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+article {
+  background-color: #ffffff;
+  border: 1px solid #e5dcd3;
+  border-radius: 10px;
+  padding: 0.75rem;        
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  flex: 1 1 250px;         
+}
+
+article h3 {
+  margin-top: 0;
+  color: var(--ink-color);
+}
+
+article p {
+  color: var(--muted-grey);
+}
+
+article a {
+  display: block;       
+  width: fit-content;    
+  margin: 0.5rem auto 0; 
+  text-align: center;    
+}
+
+article img {
+  display: block;      
+  margin: 0 auto;       
+}
+
+article a:hover {
+  text-decoration: underline;
+}
