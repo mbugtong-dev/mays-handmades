@@ -150,6 +150,42 @@ td ol {
   text-align: left;
 }
 
+section {
+  background-color: var(--white);
+  border-radius: 10px;
+  border-left: 6px solid var(--brand-color);
+  padding: 20px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: var(--ink-color);
+  border-bottom: 2px solid var(--brand-color);
+  padding-bottom: 0.5rem;
+}
+
+section p {
+  color: var(--muted-grey);
+  font-size: 1rem;
+}
+
+section ul {
+  padding-left: 1.5rem;
+  color: var(--muted-grey);
+}
+
+section li {
+  margin-bottom: 0.5rem;
+}
+
+section a {
+  color: var(--brand-color);
+  font-weight: bold;
+}
+
 form {
   max-width: 500px;
   width: 100%;
@@ -224,29 +260,3 @@ select:focus {
   outline: 3px solid var(--brand-color);
   outline-offset: 2px;
 }
-
-article h3 {
-  margin-top: 0;
-  color: var(--ink-color);
-}
-
-article p {
-  color: var(--muted-grey);
-}
-
-article a {
-  display: block;
-  width: fit-content;
-  margin: 0.5rem auto 0;
-  text-align: center;
-}
-
-article img {
-  display: block;
-  margin: 0 auto;
-}
-
-article a:hover {
-  text-decoration: underline;
-}
-
