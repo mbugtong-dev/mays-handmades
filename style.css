@@ -47,11 +47,6 @@ header h1 {
   margin: 10px 20px;
 }
 
-header p {
-  margin: 10px;
-  color: var(--ink-color);
-}
-
 nav {
   background-color: var(--ink-color);
 }
@@ -87,20 +82,6 @@ main {
   justify-content: center;
   align-items: center;
 }
-
-
-.shop-banner {
-  width: 100%;
-  height: 200px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
-}
-
-/* Product Intro */
 
 .product-intro {
   width: 100%;
@@ -151,8 +132,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* Product Cards */
-
 .product-card {
   background-color: var(--white);
   border-radius: 10px;
@@ -192,8 +171,6 @@ footer {
   text-decoration: none;
 }
 
-/* Tables */
-
 table {
   width: 100%;
   border-collapse: separate;
@@ -224,8 +201,6 @@ td ol {
   padding-left: 1.5rem;
   text-align: left;
 }
-
-/* Sections */
 
 section {
   width: 100%;
