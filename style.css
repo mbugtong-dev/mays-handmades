@@ -81,10 +81,16 @@ nav li a {
   background-color: var(--ink-color);
   text-decoration: none;
   border-radius: 4px;
+  transition: 0.3s ease;
 }
 
 nav li a:hover {
   background-color: var(--brand-color);
+}
+
+nav li a:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(65, 46, 46, 0.2);
 }
 
   main {
@@ -171,12 +177,18 @@ nav li a:hover {
     text-align: center;
     border-radius: 6px;
     font-weight: bold;
+    transition: 0.3s ease;
   }
 
   .product-card a:hover {
     background-color: var(--ink-color);
     text-decoration: none;
   }
+
+.product-card a:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(65, 46, 46, 0.2);
+}
 
   table {
     width: 100%;
@@ -305,18 +317,27 @@ nav li a:hover {
   }
 
   button[type="submit"] {
-    background-color: var(--brand-color);
-    color: var(--white);
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-  }
+  background-color: var(--brand-color);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
 
-  button[type="submit"]:hover {
-    background-color: var(--ink-color);
-  }
+  transition: 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--ink-color);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(65, 46, 46, 0.25);
+}
+
+button[type="submit"]:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(65, 46, 46, 0.2);
+}
 
   input:focus,
   textarea:focus,
