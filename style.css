@@ -47,6 +47,20 @@ header h1 {
   margin: 10px 20px;
 }
 
+.header-description {
+  height: 70px;
+  margin: 0;
+  padding: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: var(--light-bg);
+  background-color: var(--ink-color);
+}
+
 nav {
   background-color: var(--ink-color);
 }
